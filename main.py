@@ -98,14 +98,14 @@ while True:
       #   time.sleep(0.3)
       #   sys.stdout.write(f"\r[{id_n}/{ids_count}] Preparing... " + animation[i % len(animation)])
       #   sys.stdout.flush()
-      sec = random.uniform(1, 3)
+      sec = random.randint(0, 3)
       time.sleep(sec)
       print(f"[{id_n}/{ids_count}] This ID is processing... ")
       print(f"[-] WORK ON ID: {referrer}")
       print(f"[:)] {g} GB has been successfully added to your account.")
       print(f"[#] Total: {g} Good {b} Bad")
       if id_n != ids_count:
-        sec = random.uniform(10, 30)
+        sec = random.randint(10, 30)
         print(f"[*] After {sec} seconds, the next id will be be processed.")
         time.sleep(sec)
     else:
