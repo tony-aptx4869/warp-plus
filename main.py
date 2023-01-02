@@ -114,5 +114,5 @@ while True:
       print("[:(] Error when connecting to server.")
       print(f"[#] Total: {g} Good {b} Bad")
   sec = round(random.uniform(20, 40), 2)
-  print(f"[*] After {sec} seconds, {ids_count} new request(s) will be sent.")
+  print(f"[>>>>>] After {sec} seconds, {ids_count} new request(s) will be sent.")
   time.sleep(sec)
