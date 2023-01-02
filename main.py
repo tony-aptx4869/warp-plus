@@ -91,25 +91,28 @@ while True:
     id_n = id_n + 1
     if result == 200:
       g = g + 1
-      animation = ["[■□□□□□□□□□] 10%", "[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%",
-                   "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%",
-                   "[■■■■■■■■■■] 100%"]
-      for i in range(len(animation)):
-        time.sleep(0.3)
-        sys.stdout.write(f"\r[{id_n}/{ids_count}] Preparing... " + animation[i % len(animation)])
-        sys.stdout.flush()
-      print(f"\n[-] WORK ON ID: {referrer}")
+      # animation = ["[■□□□□□□□□□] 10%", "[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%",
+      #              "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%",
+      #              "[■■■■■■■■■■] 100%"]
+      # for i in range(len(animation)):
+      #   time.sleep(0.3)
+      #   sys.stdout.write(f"\r[{id_n}/{ids_count}] Preparing... " + animation[i % len(animation)])
+      #   sys.stdout.flush()
+      sec = random.uniform(1, 3)
+      time.sleep(sec)
+      print(f"[{id_n}/{ids_count}] ID is processing... ")
+      print(f"[-] WORK ON ID: {referrer}")
       print(f"[:)] {g} GB has been successfully added to your account.")
       print(f"[#] Total: {g} Good {b} Bad")
       if id_n != ids_count:
         sec = random.uniform(8, 20)
-        print(f"[*] After {sec} seconds, the next id will be be processed.\n")
+        print(f"[*] After {sec} seconds, the next id will be be processed.")
         time.sleep(sec)
     else:
       b = b + 1
-      print(f"\n[-] WORK ON ID: {referrer}")
+      print(f"[-] WORK ON ID: {referrer}")
       print("[:(] Error when connecting to server.")
-      print(f"[#] Total: {g} Good {b} Bad\n")
+      print(f"[#] Total: {g} Good {b} Bad")
   sec = random.randint(18, 30)
   print(f"[*] After {sec} seconds, {ids_count} new request(s) will be sent.")
   time.sleep(sec)
