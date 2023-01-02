@@ -100,12 +100,12 @@ while True:
       #   sys.stdout.flush()
       sec = random.uniform(1, 3)
       time.sleep(sec)
-      print(f"[{id_n}/{ids_count}] ID is processing... ")
+      print(f"[{id_n}/{ids_count}] This ID is processing... ")
       print(f"[-] WORK ON ID: {referrer}")
       print(f"[:)] {g} GB has been successfully added to your account.")
       print(f"[#] Total: {g} Good {b} Bad")
       if id_n != ids_count:
-        sec = random.uniform(8, 20)
+        sec = random.uniform(60, 120)
         print(f"[*] After {sec} seconds, the next id will be be processed.")
         time.sleep(sec)
     else:
@@ -113,6 +113,6 @@ while True:
       print(f"[-] WORK ON ID: {referrer}")
       print("[:(] Error when connecting to server.")
       print(f"[#] Total: {g} Good {b} Bad")
-  sec = random.randint(18, 30)
+  sec = random.randint(60, 180)
   print(f"[*] After {sec} seconds, {ids_count} new request(s) will be sent.")
   time.sleep(sec)
