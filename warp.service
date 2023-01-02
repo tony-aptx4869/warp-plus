@@ -8,5 +8,5 @@ WantedBy=multi-user.target
 [Service]
 Type=simple
 WorkingDirectory=/var/lib/warp-plus
-ExecStart=/usr/bin/python3 main.py
+ExecStart=/usr/bin/python3 main.py >> /var/log/warp.log
 Restart=always
