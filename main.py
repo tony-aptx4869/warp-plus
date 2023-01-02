@@ -4,8 +4,8 @@ import datetime
 import random
 import string
 import time
-import os
-import sys
+# import os
+# import sys
 
 ids = [
   "7371c6df-41a8-40f2-8e09-5690db0e136e",
@@ -15,8 +15,8 @@ ids = [
 
 ids_count = ids.__len__()
 
-os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO")
-os.system('cls' if os.name == 'nt' else 'clear')
+#os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO")
+#os.system('cls' if os.name == 'nt' else 'clear')
 print('     ___   _____   _____  __    __  _   _   _____   _____   _____  \n'
       '    /   | |  _  \ |_   _| \ \  / / | | | | /  _  \ /  ___| /  _  \ \n'
       '   / /| | | |_| |   | |    \ \/ /  | |_| | | |_| | | |___  | |_| | \n'
