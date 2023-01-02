@@ -100,9 +100,11 @@ while True:
         sys.stdout.flush()
       print(f"\n[-] WORK ON ID: {referrer}")
       print(f"[:)] {g} GB has been successfully added to your account.")
-      print(f"[#] Total: {g} Good {b} Bad\n")
-      sec = random.uniform(0, 3)
-      time.sleep(sec)
+      print(f"[#] Total: {g} Good {b} Bad")
+      if id_n != ids_count:
+        sec = random.uniform(8, 20)
+        print(f"[*] After {sec} seconds, the next id will be be processed.\n")
+        time.sleep(sec)
     else:
       b = b + 1
       print(f"\n[-] WORK ON ID: {referrer}")
