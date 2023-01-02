@@ -102,7 +102,7 @@ while True:
       time.sleep(sec)
       print(f"[+][{id_n}/{ids_count}] This ID is processing... ")
       print(f"[-] WORK ON ID: {referrer}")
-      print(f"[@][:)] {g} GB has been successfully added to your account.")
+      print(f"[@][:)] *** {g} GB *** has been successfully added to your account.")
       print(f"[#] Total: {g} Good {b} Bad")
       if id_n != ids_count:
         sec = round(random.uniform(10, 30), 2)
