@@ -105,7 +105,7 @@ while True:
       print(f"[:)] {g} GB has been successfully added to your account.")
       print(f"[#] Total: {g} Good {b} Bad")
       if id_n != ids_count:
-        sec = random.uniform(60, 120)
+        sec = random.uniform(10, 30)
         print(f"[*] After {sec} seconds, the next id will be be processed.")
         time.sleep(sec)
     else:
@@ -113,6 +113,6 @@ while True:
       print(f"[-] WORK ON ID: {referrer}")
       print("[:(] Error when connecting to server.")
       print(f"[#] Total: {g} Good {b} Bad")
-  sec = random.randint(60, 180)
+  sec = random.randint(20, 40)
   print(f"[*] After {sec} seconds, {ids_count} new request(s) will be sent.")
   time.sleep(sec)
