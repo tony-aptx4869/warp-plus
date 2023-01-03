@@ -7,10 +7,12 @@ import time
 # import os
 # import sys
 
+
+# Your own device ID(s) there.
 ids = [
-  "7371c6df-41a8-40f2-8e09-5690db0e136e",
-  "44e43bad-40b7-4932-8107-273fd1bdcd7d",
-  "69dd16ae-394b-476e-8f5f-fc11dc3c8235"
+  "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 ]
 
 ids_count = ids.__len__()
