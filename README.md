@@ -4,6 +4,8 @@
 
 ![Code Size](https://img.shields.io/github/languages/code-size/tony-aptx4869/warp-plus) ![Top Language](https://img.shields.io/github/languages/top/tony-aptx4869/warp-plus) ![GitHub stars](https://img.shields.io/github/stars/tony-aptx4869/warp-plus)
 
+[![Run on Replit](https://replit.com/badge/github/tony-aptx4869/warp-plus)](https://replit.com/github/tony-aptx4869/warp-plus)
+
 
 ## About Warp+
 
@@ -31,6 +33,10 @@ systemctl stop    warp.service
 systemctl enable  warp.service
 systemctl disable warp.service
 ```
+
+For those who don't want or are inconvenient to run the script on their own computer and those who don't have a remote Linux server, you can run it on `Replit` by clicking the button at the top of this document or the one below.
+
+[![Run on Replit](https://replit.com/badge/github/tony-aptx4869/warp-plus)](https://replit.com/github/tony-aptx4869/warp-plus)
 
 ## Python Environment Require
 
