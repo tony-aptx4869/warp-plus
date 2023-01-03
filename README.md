@@ -2,7 +2,7 @@
 
 ------------------------
 
-![Code Size](https://img.shields.io/github/languages/code-size/tony-aptx4869/warp-plus) ![Top Language](https://img.shields.io/github/languages/top/tony-aptx4869/warp-plus) ![GitHub stars](https://img.shields.io/github/stars/tony-aptx4869/warp-plus)
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=tony-aptx4869.warp-plus) ![Code Size](https://img.shields.io/github/languages/code-size/tony-aptx4869/warp-plus) ![Top Language](https://img.shields.io/github/languages/top/tony-aptx4869/warp-plus) ![GitHub stars](https://img.shields.io/github/stars/tony-aptx4869/warp-plus)
 
 [![Run on Replit](https://replit.com/badge/github/tony-aptx4869/warp-plus)](https://replit.com/github/tony-aptx4869/warp-plus)
 
